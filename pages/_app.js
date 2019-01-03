@@ -16,14 +16,14 @@ const firebaseConfig = {
 class MyApp extends App {
 
   componentDidMount() {
-    firebase.initializeApp();
+    /*firebase.initializeApp();
     firebase.auth().signInWithEmailAndPassword('0707916633', '39107')
       .then(function(user) {
         console.log(user);
       })
       .catch(function(error) {
         console.log(error);
-      });
+      });*/
   }
 
   render () {
@@ -36,4 +36,4 @@ class MyApp extends App {
   }
 }
 
-export default appWithTranslation(MyApp)
+export default appWithTranslation(MyApp);

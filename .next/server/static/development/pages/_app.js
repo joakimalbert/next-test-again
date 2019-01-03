@@ -171,12 +171,14 @@ function (_App) {
   _createClass(MyApp, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      firebase_app__WEBPACK_IMPORTED_MODULE_3__["initializeApp"]();
-      firebase_app__WEBPACK_IMPORTED_MODULE_3__["auth"]().signInWithEmailAndPassword('0707916633', '39107').then(function (user) {
-        console.log(user);
-      }).catch(function (error) {
-        console.log(error);
-      });
+      /*firebase.initializeApp();
+      firebase.auth().signInWithEmailAndPassword('0707916633', '39107')
+        .then(function(user) {
+          console.log(user);
+        })
+        .catch(function(error) {
+          console.log(error);
+        });*/
     }
   }, {
     key: "render",
