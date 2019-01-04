@@ -123,8 +123,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../i18n */ "./i18n.js");
 /* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_i18n__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! firebase/app */ "firebase/app");
-/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(firebase_app__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -146,16 +144,6 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
- // Should be env variables but adding just for test and not here
-
-var firebaseConfig = {
-  apiKey: "AIzaSyA7mRnTpAYBu4fcCUcy0dW3_-97sLmrBxI",
-  authDomain: "albert-production.firebaseapp.com",
-  databaseURL: "https://albert-production.firebaseio.com",
-  projectId: "firebase-albert-production",
-  storageBucket: "firebase-albert-production.appspot.com",
-  messagingSenderId: "424097132092"
-};
 
 var MyApp =
 /*#__PURE__*/
@@ -169,18 +157,6 @@ function (_App) {
   }
 
   _createClass(MyApp, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      /*firebase.initializeApp();
-      firebase.auth().signInWithEmailAndPassword('0707916633', '39107')
-        .then(function(user) {
-          console.log(user);
-        })
-        .catch(function(error) {
-          console.log(error);
-        });*/
-    }
-  }, {
     key: "render",
     value: function render() {
       var _this$props = this.props,
@@ -206,17 +182,6 @@ function (_App) {
 
 module.exports = __webpack_require__(/*! ./pages/_app.js */"./pages/_app.js");
 
-
-/***/ }),
-
-/***/ "firebase/app":
-/*!*******************************!*\
-  !*** external "firebase/app" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("firebase/app");
 
 /***/ }),
 
