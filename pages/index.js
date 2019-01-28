@@ -3,7 +3,7 @@ import { i18n, Link, withNamespaces } from '../i18n'
 
 import Title from '../components/Title'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Navigation from '../components/Navigation'
 
 class Homepage extends React.Component {
   static async getInitialProps() {
@@ -15,7 +15,7 @@ class Homepage extends React.Component {
     const { t } = this.props
     return (
       <React.Fragment>
-        <Header />
+        <Navigation />
         <Title />
         <button onClick={() => i18n.changeLanguage(i18n.language === 'en' ? 'sv' : 'en')}>
           {t('change-locale')}
