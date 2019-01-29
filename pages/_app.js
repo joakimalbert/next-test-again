@@ -13,7 +13,8 @@ class MyApp extends App {
         <Head>
             <title>Albert - din digitala mattelärare</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-            <style jsx global>{`
+        </Head>
+        <style jsx global>{`
                 body { 
                     background: #fff;
                     font-family: Bariol, Arial, sans-serif;
@@ -45,7 +46,6 @@ class MyApp extends App {
                 }
                 
             `}</style>
-        </Head>
         <Component {...pageProps} />
         <Footer />
       </Container>
