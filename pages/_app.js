@@ -11,9 +11,40 @@ class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>Albert - din digitala mattelärare</title>
-          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <link rel="stylesheet" type="text/css" href="/static/styles/main.css" />
+            <title>Albert - din digitala mattelärare</title>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <style jsx global>{`
+                body { 
+                    background: #fff;
+                    font-family: Bariol, Arial, sans-serif;
+                    color: #55556b;
+                    margin: 0;
+                    font-size: 16px;
+                }
+
+                .container {
+                    width: 1172px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                @media (max-width: 1200px) {
+                    .container {
+                        width: 100%;
+                    }
+                }
+
+                .button {
+                    background-color: #EF7B8F;
+                    color: white;
+                    padding: 15px 35px;
+                    font-size: 1.3rem;
+                    text-transform: uppercase;
+                    border-radius: 30px;
+                    text-decoration: none;
+                }
+                
+            `}</style>
         </Head>
         <Component {...pageProps} />
         <Footer />

@@ -167,7 +167,13 @@ function (_React$Component) {
       var t = this.props.t;
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, t('h1')), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_i18n__WEBPACK_IMPORTED_MODULE_2__["Link"], {
         href: "/"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", null, t('back-to-home'))));
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", null, t('back-to-home'))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+        onClick: function onClick() {
+          return _i18n__WEBPACK_IMPORTED_MODULE_2__["i18n"].changeLanguage(_i18n__WEBPACK_IMPORTED_MODULE_2__["i18n"].language === 'en' ? 'sv' : 'en');
+        }
+      }, t('change-locale')), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_i18n__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+        href: "/second-page"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", null, t('to-second-page'))));
     }
   }], [{
     key: "getInitialProps",
