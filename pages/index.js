@@ -5,6 +5,7 @@ import Hero from '../components/Landing/Hero';
 import VideoContainer from '../components/Landing/VideoContainer';
 import USP from '../components/Landing/USP';
 import VideoGallery from '../components/Landing/VideoGallery';
+import USPGallery from '../components/Landing/USPGallery';
 
 class Homepage extends React.Component {
     static async getInitialProps() {
@@ -21,6 +22,7 @@ class Homepage extends React.Component {
             <VideoContainer />
             <USP />
             <VideoGallery />
+            <USPGallery />
             </React.Fragment>
         )
     }
