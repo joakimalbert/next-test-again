@@ -2,7 +2,6 @@ import React from 'react'
 import { i18n, Link, withNamespaces } from '../i18n'
 
 import Title from '../components/Title'
-import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 
 class Homepage extends React.Component {

@@ -22935,7 +22935,7 @@ function (_App) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
         rel: "stylesheet",
         type: "text/css",
-        href: "https://hejalbert.se/assets/css/main.css"
+        href: "/static/styles/main.css"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, pageProps), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
     }
   }]);

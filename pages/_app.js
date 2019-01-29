@@ -13,7 +13,7 @@ class MyApp extends App {
         <Head>
           <title>Albert - din digitala mattelärare</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-          <link rel="stylesheet" type="text/css" href="https://hejalbert.se/assets/css/main.css" />
+          <link rel="stylesheet" type="text/css" href="/static/styles/main.css" />
         </Head>
         <Component {...pageProps} />
         <Footer />
