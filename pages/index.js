@@ -3,6 +3,8 @@ import { withNamespaces } from '../i18n'
 
 import Hero from '../components/Landing/Hero';
 import VideoContainer from '../components/Landing/VideoContainer';
+import USP from '../components/Landing/USP';
+import VideoGallery from '../components/Landing/VideoGallery';
 
 class Homepage extends React.Component {
     static async getInitialProps() {
@@ -17,6 +19,8 @@ class Homepage extends React.Component {
             <React.Fragment>
             <Hero />
             <VideoContainer />
+            <USP />
+            <VideoGallery />
             </React.Fragment>
         )
     }
