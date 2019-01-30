@@ -18,9 +18,14 @@ class Hero extends React.Component {
                     .title {
                         color: #EF7B8F;
                         margin-top: 0;
+                        font-size: 5.4rem;
+                        font-weight: bold;
                     }
                     .ingress {
                         color: #EF7B8F;
+                        font-size: 3rem;
+                        font-weight: bold;
+                        line-height: 4.5rem;
                         margin-bottom: 50px;
                     }
             `}</style>

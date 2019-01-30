@@ -6,6 +6,7 @@ import VideoContainer from '../components/Landing/VideoContainer';
 import USP from '../components/Landing/USP';
 import VideoGallery from '../components/Landing/VideoGallery';
 import USPGallery from '../components/Landing/USPGallery';
+import Trial from '../components/Landing/Trial';
 
 class Homepage extends React.Component {
     static async getInitialProps() {
@@ -18,11 +19,12 @@ class Homepage extends React.Component {
         const { t } = this.props
         return (
             <React.Fragment>
-            <Hero />
-            <VideoContainer />
-            <USP />
-            <VideoGallery />
-            <USPGallery />
+                <Hero />
+                <VideoContainer />
+                <USP />
+                <VideoGallery />
+                <USPGallery />
+                <Trial />
             </React.Fragment>
         )
     }

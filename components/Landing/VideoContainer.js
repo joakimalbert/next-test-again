@@ -30,9 +30,13 @@ class VideoContainer extends React.Component {
                         flex: 1.5;
                     }
                     .title {
-                        margin-top: 0;
+                        font-size: 4.5rem;
+                        font-weight: bold;
+                        margin: 0;
                     }
                     .ingress {
+                        font-size: 2.6rem;
+                        line-height: 3.5rem;
                         margin-bottom: 50px;
                     }
             `}</style>

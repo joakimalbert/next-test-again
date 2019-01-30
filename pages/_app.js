@@ -15,12 +15,33 @@ class MyApp extends App {
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <style jsx global>{`
+
+                @font-face {
+                    font-family: 'Bariol';
+                    src: url('/static/fonts/Bariol/Bariol.woff2') format('woff2'),
+                        url('/static/fonts/Bariol/Bariol.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+                @font-face {
+                    font-family: 'Bariol';
+                    src: url('/static/fonts/Bariol/Bariol-Bold.woff2') format('woff2'),
+                        url('/static/fonts/Bariol/Bariol-Bold.woff') format('woff');
+                    font-weight: bold;
+                    font-style: normal;
+                }
+
+                html {
+                    font-size: 62.5%;
+                }
+
                 body { 
                     background: #fff;
                     font-family: Bariol, Arial, sans-serif;
                     color: #55556b;
                     margin: 0;
-                    font-size: 16px;
+                    font-size: 1.6rem;
                 }
 
                 .container {
@@ -38,8 +59,9 @@ class MyApp extends App {
                 .button {
                     background-color: #EF7B8F;
                     color: white;
+                    font-size: 2.5rem;
+                    font-weight: bold;
                     padding: 15px 35px;
-                    font-size: 1.3rem;
                     text-transform: uppercase;
                     border-radius: 30px;
                     text-decoration: none;

@@ -5,9 +5,16 @@ class VideoGallery extends React.Component {
         return (
             <div>
                 <div className="container">
-                    <h2>Voice of our small users... 😀</h2>
+                    <h2 className="title">Voice of our small users... 😀</h2>
                 </div>
                 <style jsx>{`
+                    .container {
+                        text-align: center;
+                    }
+                    .title {
+                        font-size: 4.5rem;
+                        font-weight: bold;
+                    }
             `}</style>
             </div>
         )
