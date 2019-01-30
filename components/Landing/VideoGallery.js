@@ -9,7 +9,6 @@ class VideoGallery extends React.Component {
                 </div>
                 <style jsx>{`
                     .video__wrapper {
-                        background: white;
                         background: url('static/assets/images/oval.png');
                         background-size: 140% 100%;
                         background-position-x: -200px;

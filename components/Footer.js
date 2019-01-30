@@ -14,6 +14,7 @@ class Footer extends React.Component {
               {/*<li><FontAwesomeIcon icon={ ['fas', 'faCheckSquare'] }/></li>*/}
               <li>Facebook</li>
               <li>Instagram</li>
+              
             </ul>
           </div>
           
