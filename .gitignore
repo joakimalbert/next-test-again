@@ -13,4 +13,4 @@ dist
 # Logs
 runtime.log
 
-/.next/*
+/.next/
