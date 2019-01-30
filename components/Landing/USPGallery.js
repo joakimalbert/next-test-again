@@ -5,20 +5,6 @@ class USPGallery extends React.Component {
         return (
             <div>
                 <div className="container">
-<<<<<<< HEAD
-                    <ul>
-                        <li>Based on years of research</li>
-                        <li>Individual learning experience</li>
-                        <li>Developed by teachers</li>
-                        <li>Based on curriculum in school</li>
-                        <li>Gamified learning journey</li>
-                        <li>Montessori inspired</li>
-                        <li>Thousands of happy families</li>
-                        <li>For ages 4-9</li>
-                    </ul>
-                </div>
-                <style jsx>{`
-=======
                     <ul className="usp__list">
                         <li className="usp__list__item"><h4 className="list__item__title">Based on years of research</h4></li>
                         <li className="usp__list__item"><h4 className="list__item__title">Individual learning experience</h4></li>
@@ -62,7 +48,6 @@ class USPGallery extends React.Component {
                         padding: 40px 0;
                     }
                 }
->>>>>>> 34222d6... Added bariol
             `}</style>
             </div>
         )
