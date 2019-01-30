@@ -6,8 +6,8 @@ class Trial extends React.Component {
             <div className="trial__wrapper">
                 <div className="container">
                     <h2 className="title">Why not try now?</h2>
-                    <p>No commitments, no lock-in periods, no up front payments.</p>
-                    <p>Try 14 days for free and cancel anytime.</p>
+                    <p>No commitments, no lock-in periods, no up front payments.<br />Try 14 days for free and cancel anytime.</p>
+                    <a className="button" href="#">Free trial 14 days</a>
                 </div>
                 <style jsx>{`
                 .trial__wrapper {
@@ -23,6 +23,7 @@ class Trial extends React.Component {
                 }
                 p {
                     font-size: 2.6rem;
+                    line-height: 3.5rem;
                 }
             `}</style>
             </div>

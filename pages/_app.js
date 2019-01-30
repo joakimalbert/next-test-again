@@ -37,7 +37,7 @@ class MyApp extends App {
                 }
 
                 body { 
-                    background: #fff;
+                    background-color: #F6F5F9;
                     font-family: Bariol, Arial, sans-serif;
                     color: #55556b;
                     margin: 0;

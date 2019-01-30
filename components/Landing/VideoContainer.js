@@ -13,7 +13,11 @@ class VideoContainer extends React.Component {
                 </div>
                 <style jsx>{`
                     .video__wrapper {
-                        margin-top: 100px;
+                        background: white;
+                        background: url('static/assets/images/oval.png');
+                        background-size: 140% 100%;
+                        background-position-x: -200px;
+                        padding: 30rem 0;
                     }
                     .container {
                         display: flex;

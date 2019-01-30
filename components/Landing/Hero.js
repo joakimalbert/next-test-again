@@ -11,7 +11,6 @@ class Hero extends React.Component {
                 </div>
                 <style jsx>{`
                     .hero__wrapper {
-                        background-color: #F6F5F9;
                         padding-bottom: 200px;
                         padding-top: 100px;
                     }

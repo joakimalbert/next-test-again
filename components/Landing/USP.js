@@ -21,7 +21,6 @@ class USP extends React.Component {
                 </div>
                 <style jsx>{`
                     .usp__container {
-                        background-color: #F6F5F9;
                         margin-top: 100px;
                     }
                     .usp__title {
@@ -29,7 +28,7 @@ class USP extends React.Component {
                         font-weight: bold;
                     }
                     .usp__content {
-                        
+
                     }
             `}</style>
             </div>
