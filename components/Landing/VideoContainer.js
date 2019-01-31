@@ -16,7 +16,7 @@ class VideoContainer extends React.Component {
                         background: url('static/assets/images/oval.png');
                         background-size: 140% 100%;
                         background-position-x: -200px;
-                        padding: 30rem 0;
+                        padding: 40rem 0;
                     }
                     .container {
                         display: flex;

@@ -13,9 +13,20 @@ class VideoGallery extends React.Component {
                         background-size: 140% 100%;
                         background-position-x: -200px;
                         padding: 30rem 0;
+                        position: relative;
                     }
                     .container {
                         text-align: center;
+                    }
+                    .video__wrapper:before {
+                        content: "";
+                        position: absolute;
+                        top: -8rem;
+                        right: -8rem;
+                        width: 35rem;
+                        height: 35rem;
+                        border-radius: 50%;
+                        background-image: linear-gradient(206deg, #abe1ea, #73c0d1);
                     }
                     .title {
                         font-size: 4.5rem;

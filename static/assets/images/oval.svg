@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1112" viewBox="0 0 1440 1112">
-    <path fill="#FFF" fill-rule="evenodd" d="M564.732 968c739.969-103.996 1528.493 379.927 1490.724-230.834C2032.88 372.11 1889.882 77.473 1501.007-1.245 1362.637-29.255 1199.364 198.802 942.366 132c-211.594-55-402.754-19.62-543.064.1C131.528 169.733 1.636 51.744-188.835 88.945-542.71 158.059-467.6 638.023-424.88 942c66.948 476.359 249.642 129.996 989.61 26z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2520px" height="1192px" viewBox="0 0 2520 1192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-136.000000, -261.000000)" fill="#FFFFFF">
+            <g id="oval" transform="translate(136.000000, 261.000000)">
+                <path d="M1027.732,972 C1767.701,868.004 2556.225,1351.927 2518.456,741.166 C2495.88,376.11 2352.882,81.473 1964.007,2.755 C1825.637,-25.255 1662.364,202.802 1405.366,136 C1193.772,81 1002.612,116.38 862.302,136.1 C594.528,173.733 464.636,55.744 274.165,92.945 C-79.71,162.059 -4.6,642.023 38.12,946 C105.068,1422.359 287.762,1075.996 1027.73,972 L1027.732,972 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
 </svg>

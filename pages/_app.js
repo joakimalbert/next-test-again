@@ -41,7 +41,9 @@ class MyApp extends App {
                     font-family: Bariol, Arial, sans-serif;
                     color: #55556b;
                     margin: 0;
-                    font-size: 1.6rem;
+                    font-size: 2.6rem;
+                    line-height: 3.5rem;
+                    overflow-x: hidden;
                 }
 
                 .container {
