@@ -14,7 +14,7 @@ class Footer extends React.Component {
               {/*<li><FontAwesomeIcon icon={ ['fas', 'faCheckSquare'] }/></li>*/}
               <li>Facebook</li>
               <li>Instagram</li>
-              
+
             </ul>
           </div>
           
@@ -40,7 +40,15 @@ class Footer extends React.Component {
                         background-color: #68B8CA;
                         padding-top: 100px;
                         margin: 0px;
-                      
+                        position: relative;
+                    }
+                    .footer__wrapper:before {
+                        content: "";
+                        background: url('static/assets/images/wave.svg');
+                        position: absolute;
+                        width: 100%;
+                        height: 59px;
+                        top: -16px;
                     }
                     .container {
                       display: flex;

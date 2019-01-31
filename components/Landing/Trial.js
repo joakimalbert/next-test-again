@@ -15,6 +15,18 @@ class Trial extends React.Component {
                 }
                 .container {
                     text-align: center;
+                    position: relative;
+                    margin-bottom: 10rem;
+                }
+                .container:after {
+                    content: "";
+                    position: absolute;
+                    background: url('static/assets/images/fish.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 17rem;
+                    height: 12rem;
+                    right: 0;
                 }
                 .title {
                     font-size: 4.5rem;
