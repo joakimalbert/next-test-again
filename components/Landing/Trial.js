@@ -16,17 +16,18 @@ class Trial extends React.Component {
                 .container {
                     text-align: center;
                     position: relative;
-                    margin-bottom: 10rem;
+                    margin-bottom: 15rem;
                 }
                 .container:after {
                     content: "";
                     position: absolute;
+                    bottom: -12.5rem;
+                    right: 0;
                     background: url('static/assets/images/fish.svg');
                     background-repeat: no-repeat;
                     background-size: contain;
                     width: 17rem;
                     height: 12rem;
-                    right: 0;
                 }
                 .title {
                     font-size: 4.5rem;
@@ -36,6 +37,7 @@ class Trial extends React.Component {
                 p {
                     font-size: 2.6rem;
                     line-height: 3.5rem;
+                    margin-bottom: 6rem;
                 }
             `}</style>
             </div>

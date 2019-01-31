@@ -63,6 +63,7 @@ class USPGallery extends React.Component {
                     font-weight: bold;
                     font-size: 2.5rem;
                     line-height: 3.5rem;
+                    margin-bottom: 0;
                 }
                 @media (max-width: 992px) {
                     .usp__list {
@@ -72,6 +73,9 @@ class USPGallery extends React.Component {
                         height: auto;
                         padding: 40px 0;
                     }
+                }
+                img {
+                    margin-top: 2rem;
                 }
             `}</style>
             </div>
